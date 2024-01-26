@@ -1,0 +1,25 @@
+{
+    "name": "keven/fortuneo-client",
+    "description": "API client for Fortuneo bank account",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Keven",
+        "email": "hello@keven.com"
+      }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "hipay/hipay-fullservice-sdk-php": "^2.15",
+      "ext-zip": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Keven\\Fortuneo\\": "src/"
+      }
+    },
+    "require-dev": {
+        "symfony/panther": "^2.1",
+        "dbrekelmans/bdi": "^1.1"
+    }
+}
